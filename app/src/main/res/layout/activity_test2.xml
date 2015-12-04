@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.lunadeveloper.test1.Test2"
+    android:orientation="horizontal"
+    android:weightSum="1">
+
+    <TextView android:text="Welcome to the app"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/welcome_text" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="484dp"
+        android:id="@+id/imageView"
+        android:layout_below="@+id/one"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="158dp"
+        android:layout_marginEnd="158dp"
+        android:src="@mipmap/ic_launcher"
+        android:layout_weight="0.47" />
+
+</LinearLayout>
